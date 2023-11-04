@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>f8beb2c7-34e5-427f-bd27-a9c385ac1563</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>SharedWinforms</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Extension\ControlEX.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extension\GraphicsEX.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extension\PointEX.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extension\SizeEX.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extension\TreeNodeEX.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Extension\Win32EX.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ImageReader.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)StringParsers.cs" />
+  </ItemGroup>
+</Project>
